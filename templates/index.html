@@ -30,8 +30,8 @@
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
     <!-- =======================================================
-    * Template Name: Medilab
-    * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+    * Template Name: Health.io
+    * Template URL: https://bootstrapmade.com/Health.io-free-medical-bootstrap-theme/
     * Updated: Mar 17 2024 with Bootstrap v5.3.3
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
@@ -71,23 +71,6 @@
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
                 <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                    </ul>
-                </li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 {% if user.is_authenticated %}
                     <li class="nav-item active">
@@ -95,6 +78,9 @@
                     </li>
                     <li class="nav-item active">
                         <a class="nav-item nav-link" href="robot.html">Your Assistant</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-item nav-link" href="training.html">Program</a>
                     </li>
                     <li><a class="nav-link scrollto" href="doctors.html">Doctors</a></li>
                     <li class="nav-item active">
@@ -132,7 +118,7 @@
             <div class="row">
                 <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="content">
-                        <h3>Why Choose Medilab?</h3>
+                        <h3>Why Choose Health.io?</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
@@ -370,7 +356,7 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>Departments</h2>
+                <h2>Features</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                     fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -380,19 +366,16 @@
                 <div class="col-lg-3">
                     <ul class="nav nav-tabs flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
+                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Personal Assistant</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Daily Statistics</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Personlized Training Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Doctors</a>
                         </li>
                     </ul>
                 </div>
@@ -401,7 +384,7 @@
                         <div class="tab-pane active show" id="tab-1">
                             <div class="row gy-4">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>Cardiology</h3>
+                                    <h3>Personal Assistant</h3>
                                     <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila
                                         parde sonata raqer a videna mareta paulona marka</p>
                                     <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum
@@ -851,7 +834,7 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>Medilab</h3>
+                    <h3>Health.io</h3>
                     <p>
                         A108 Adam Street <br>
                         New York, NY 535022<br>
@@ -901,13 +884,13 @@
 
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Health.io</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/Health.io-free-medical-bootstrap-theme/ -->
                 Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>

@@ -10,10 +10,11 @@ urlpatterns = [
     path('index.html', contact_form, name='contact_form'),
     path('login.html', views.login_user, name='login'),
     path('logout/', views.logout_user, name='logout'),
-    path('register/', views.register_user, name='register'),
-    path('edit_profile/', views.edit_profile, name='edit_profile'),
+    path('register.html', views.register, name='register'),
+    path('edit_profile.html', views.edit_profile, name='edit_profile'),
     path('change_password', views.change_password, name='change_password'),
     path('statistics.html', views.statistics, name='statistics'),
     path('robot.html', views.robot, name='robot'),
-    path('doctors.html', views.doctors, name='doctors')
+    path('doctors.html', views.doctors, name='doctors'),
+    path('training.html', views.training, name='training')
 ]
